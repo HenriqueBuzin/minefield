@@ -123,32 +123,86 @@ minefield/fast:
 	$(MAKE) -f CMakeFiles/minefield.dir/build.make CMakeFiles/minefield.dir/build
 .PHONY : minefield/fast
 
-main.o: main.cpp.o
+src/Item.o: src/Item.cpp.o
 
-.PHONY : main.o
+.PHONY : src/Item.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/minefield.dir/build.make CMakeFiles/minefield.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/Item.cpp.o:
+	$(MAKE) -f CMakeFiles/minefield.dir/build.make CMakeFiles/minefield.dir/src/Item.cpp.o
+.PHONY : src/Item.cpp.o
 
-main.i: main.cpp.i
+src/Item.i: src/Item.cpp.i
 
-.PHONY : main.i
+.PHONY : src/Item.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/minefield.dir/build.make CMakeFiles/minefield.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Item.cpp.i:
+	$(MAKE) -f CMakeFiles/minefield.dir/build.make CMakeFiles/minefield.dir/src/Item.cpp.i
+.PHONY : src/Item.cpp.i
 
-main.s: main.cpp.s
+src/Item.s: src/Item.cpp.s
 
-.PHONY : main.s
+.PHONY : src/Item.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/minefield.dir/build.make CMakeFiles/minefield.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Item.cpp.s:
+	$(MAKE) -f CMakeFiles/minefield.dir/build.make CMakeFiles/minefield.dir/src/Item.cpp.s
+.PHONY : src/Item.cpp.s
+
+src/Quiz.o: src/Quiz.cpp.o
+
+.PHONY : src/Quiz.o
+
+# target to build an object file
+src/Quiz.cpp.o:
+	$(MAKE) -f CMakeFiles/minefield.dir/build.make CMakeFiles/minefield.dir/src/Quiz.cpp.o
+.PHONY : src/Quiz.cpp.o
+
+src/Quiz.i: src/Quiz.cpp.i
+
+.PHONY : src/Quiz.i
+
+# target to preprocess a source file
+src/Quiz.cpp.i:
+	$(MAKE) -f CMakeFiles/minefield.dir/build.make CMakeFiles/minefield.dir/src/Quiz.cpp.i
+.PHONY : src/Quiz.cpp.i
+
+src/Quiz.s: src/Quiz.cpp.s
+
+.PHONY : src/Quiz.s
+
+# target to generate assembly for a file
+src/Quiz.cpp.s:
+	$(MAKE) -f CMakeFiles/minefield.dir/build.make CMakeFiles/minefield.dir/src/Quiz.cpp.s
+.PHONY : src/Quiz.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/minefield.dir/build.make CMakeFiles/minefield.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/minefield.dir/build.make CMakeFiles/minefield.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/minefield.dir/build.make CMakeFiles/minefield.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... minefield"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/Item.o"
+	@echo "... src/Item.i"
+	@echo "... src/Item.s"
+	@echo "... src/Quiz.o"
+	@echo "... src/Quiz.i"
+	@echo "... src/Quiz.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

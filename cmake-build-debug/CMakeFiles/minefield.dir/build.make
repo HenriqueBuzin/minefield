@@ -57,30 +57,60 @@ include CMakeFiles/minefield.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/minefield.dir/flags.make
 
-CMakeFiles/minefield.dir/main.cpp.o: CMakeFiles/minefield.dir/flags.make
-CMakeFiles/minefield.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/henrique_buzin/CLionProjects/minefield/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/minefield.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/minefield.dir/main.cpp.o -c /Users/henrique_buzin/CLionProjects/minefield/main.cpp
+CMakeFiles/minefield.dir/src/main.cpp.o: CMakeFiles/minefield.dir/flags.make
+CMakeFiles/minefield.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/henrique_buzin/CLionProjects/minefield/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/minefield.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/minefield.dir/src/main.cpp.o -c /Users/henrique_buzin/CLionProjects/minefield/src/main.cpp
 
-CMakeFiles/minefield.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minefield.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/henrique_buzin/CLionProjects/minefield/main.cpp > CMakeFiles/minefield.dir/main.cpp.i
+CMakeFiles/minefield.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minefield.dir/src/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/henrique_buzin/CLionProjects/minefield/src/main.cpp > CMakeFiles/minefield.dir/src/main.cpp.i
 
-CMakeFiles/minefield.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minefield.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/henrique_buzin/CLionProjects/minefield/main.cpp -o CMakeFiles/minefield.dir/main.cpp.s
+CMakeFiles/minefield.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minefield.dir/src/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/henrique_buzin/CLionProjects/minefield/src/main.cpp -o CMakeFiles/minefield.dir/src/main.cpp.s
+
+CMakeFiles/minefield.dir/src/Quiz.cpp.o: CMakeFiles/minefield.dir/flags.make
+CMakeFiles/minefield.dir/src/Quiz.cpp.o: ../src/Quiz.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/henrique_buzin/CLionProjects/minefield/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/minefield.dir/src/Quiz.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/minefield.dir/src/Quiz.cpp.o -c /Users/henrique_buzin/CLionProjects/minefield/src/Quiz.cpp
+
+CMakeFiles/minefield.dir/src/Quiz.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minefield.dir/src/Quiz.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/henrique_buzin/CLionProjects/minefield/src/Quiz.cpp > CMakeFiles/minefield.dir/src/Quiz.cpp.i
+
+CMakeFiles/minefield.dir/src/Quiz.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minefield.dir/src/Quiz.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/henrique_buzin/CLionProjects/minefield/src/Quiz.cpp -o CMakeFiles/minefield.dir/src/Quiz.cpp.s
+
+CMakeFiles/minefield.dir/src/Item.cpp.o: CMakeFiles/minefield.dir/flags.make
+CMakeFiles/minefield.dir/src/Item.cpp.o: ../src/Item.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/henrique_buzin/CLionProjects/minefield/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/minefield.dir/src/Item.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/minefield.dir/src/Item.cpp.o -c /Users/henrique_buzin/CLionProjects/minefield/src/Item.cpp
+
+CMakeFiles/minefield.dir/src/Item.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minefield.dir/src/Item.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/henrique_buzin/CLionProjects/minefield/src/Item.cpp > CMakeFiles/minefield.dir/src/Item.cpp.i
+
+CMakeFiles/minefield.dir/src/Item.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minefield.dir/src/Item.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/henrique_buzin/CLionProjects/minefield/src/Item.cpp -o CMakeFiles/minefield.dir/src/Item.cpp.s
 
 # Object files for target minefield
 minefield_OBJECTS = \
-"CMakeFiles/minefield.dir/main.cpp.o"
+"CMakeFiles/minefield.dir/src/main.cpp.o" \
+"CMakeFiles/minefield.dir/src/Quiz.cpp.o" \
+"CMakeFiles/minefield.dir/src/Item.cpp.o"
 
 # External object files for target minefield
 minefield_EXTERNAL_OBJECTS =
 
-minefield: CMakeFiles/minefield.dir/main.cpp.o
+minefield: CMakeFiles/minefield.dir/src/main.cpp.o
+minefield: CMakeFiles/minefield.dir/src/Quiz.cpp.o
+minefield: CMakeFiles/minefield.dir/src/Item.cpp.o
 minefield: CMakeFiles/minefield.dir/build.make
 minefield: CMakeFiles/minefield.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/henrique_buzin/CLionProjects/minefield/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable minefield"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/henrique_buzin/CLionProjects/minefield/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable minefield"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/minefield.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

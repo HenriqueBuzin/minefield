@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/henrique_buzin/CLionProjects/minefield/main.cpp" "/Users/henrique_buzin/CLionProjects/minefield/cmake-build-debug/CMakeFiles/minefield.dir/main.cpp.o"
+  "/Users/henrique_buzin/CLionProjects/minefield/src/Item.cpp" "/Users/henrique_buzin/CLionProjects/minefield/cmake-build-debug/CMakeFiles/minefield.dir/src/Item.cpp.o"
+  "/Users/henrique_buzin/CLionProjects/minefield/src/Quiz.cpp" "/Users/henrique_buzin/CLionProjects/minefield/cmake-build-debug/CMakeFiles/minefield.dir/src/Quiz.cpp.o"
+  "/Users/henrique_buzin/CLionProjects/minefield/src/main.cpp" "/Users/henrique_buzin/CLionProjects/minefield/cmake-build-debug/CMakeFiles/minefield.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

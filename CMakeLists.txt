@@ -3,4 +3,4 @@ project(minefield)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(minefield main.cpp)
+add_executable(minefield src/main.cpp src/Quiz.cpp src/Item.cpp)

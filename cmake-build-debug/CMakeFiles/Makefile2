@@ -74,12 +74,12 @@ clean: CMakeFiles/minefield.dir/clean
 CMakeFiles/minefield.dir/all:
 	$(MAKE) -f CMakeFiles/minefield.dir/build.make CMakeFiles/minefield.dir/depend
 	$(MAKE) -f CMakeFiles/minefield.dir/build.make CMakeFiles/minefield.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/henrique_buzin/CLionProjects/minefield/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target minefield"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/henrique_buzin/CLionProjects/minefield/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target minefield"
 .PHONY : CMakeFiles/minefield.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/minefield.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/henrique_buzin/CLionProjects/minefield/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/henrique_buzin/CLionProjects/minefield/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/minefield.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/henrique_buzin/CLionProjects/minefield/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/minefield.dir/rule

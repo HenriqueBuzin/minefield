@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/henrique_buzin/CLionProjects/minefield/main.cpp
-iostream
--
+/Users/henrique_buzin/CLionProjects/minefield/src/Item.cpp
+Item.h
+/Users/henrique_buzin/CLionProjects/minefield/src/Item.h
+
+/Users/henrique_buzin/CLionProjects/minefield/src/Item.h
 
