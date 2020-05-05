@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/minefield.dir/src/Item.cpp.o"
   "CMakeFiles/minefield.dir/src/Quiz.cpp.o"
   "CMakeFiles/minefield.dir/src/main.cpp.o"
   "minefield"

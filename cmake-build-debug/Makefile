@@ -123,33 +123,6 @@ minefield/fast:
 	$(MAKE) -f CMakeFiles/minefield.dir/build.make CMakeFiles/minefield.dir/build
 .PHONY : minefield/fast
 
-src/Item.o: src/Item.cpp.o
-
-.PHONY : src/Item.o
-
-# target to build an object file
-src/Item.cpp.o:
-	$(MAKE) -f CMakeFiles/minefield.dir/build.make CMakeFiles/minefield.dir/src/Item.cpp.o
-.PHONY : src/Item.cpp.o
-
-src/Item.i: src/Item.cpp.i
-
-.PHONY : src/Item.i
-
-# target to preprocess a source file
-src/Item.cpp.i:
-	$(MAKE) -f CMakeFiles/minefield.dir/build.make CMakeFiles/minefield.dir/src/Item.cpp.i
-.PHONY : src/Item.cpp.i
-
-src/Item.s: src/Item.cpp.s
-
-.PHONY : src/Item.s
-
-# target to generate assembly for a file
-src/Item.cpp.s:
-	$(MAKE) -f CMakeFiles/minefield.dir/build.make CMakeFiles/minefield.dir/src/Item.cpp.s
-.PHONY : src/Item.cpp.s
-
 src/Quiz.o: src/Quiz.cpp.o
 
 .PHONY : src/Quiz.o
@@ -213,9 +186,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... minefield"
-	@echo "... src/Item.o"
-	@echo "... src/Item.i"
-	@echo "... src/Item.s"
 	@echo "... src/Quiz.o"
 	@echo "... src/Quiz.i"
 	@echo "... src/Quiz.s"

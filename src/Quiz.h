@@ -7,9 +7,8 @@
 
 
 class Quiz {
-
-public:
-    Quiz();
+    public:
+        Quiz();
 };
 
 

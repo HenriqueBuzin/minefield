@@ -78,12 +78,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/henrique_buzin/CLionProjects/minefield/src/Item.cpp">
-			<Option target="minefield"/>
-		</Unit>
-		<Unit filename="/Users/henrique_buzin/CLionProjects/minefield/src/Item.h">
-			<Option target="minefield"/>
-		</Unit>
 		<Unit filename="/Users/henrique_buzin/CLionProjects/minefield/src/Quiz.cpp">
 			<Option target="minefield"/>
 		</Unit>
